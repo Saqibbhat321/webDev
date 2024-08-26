@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>YouTube</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/306132b262.js" crossorigin="anonymous"></script>
+    <script src='main.js'></script>
+    <style>
+        body {
+            font-family: Roboto;
+            font-weight: 700;
+        }
+
+
+
+
+
+
+        .logo {
+            font-size: 5vh;
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+
+        }
+
+        .container {}
+
+        #youtubeText {
+            font-size: 5vh;
+        }
+
+        .videos {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .videos img {
+            border-radius: 50%;
+            width: 10vh;
+            height: 11vh;
+        }
+
+        .nameofchannel {
+            line-height: 7px;
+        }
+
+        #subscribe-btn {
+            background-color: black;
+            color: white;
+            border-radius: 100px;
+            padding: 0.7em 3vh;
+
+        }
+
+        .like {
+            display: flex;
+            align-items: end;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+
+                <div>
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-brands fa-youtube" style="color: red;"></i>
+                    <span id="youtubeText">YouTube <sup>IN</sup></span>
+                </div>
+                <div class="searchbar">
+                    <input type="text" placeholder="Search">
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass" style="font-size: 18px; border: none; "></i>
+
+                    </button>
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-video"></i>
+                    <i class="fa-solid fa-bell"></i>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/D2DnMorHdJ0?si=KEDudbMp9owXQ2Q1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>Shireen X 2Pac | شيرين و توباك (Prod by @Abu.zeid)</p>
+            <div class="videos">
+                <img src="images/channels4_profile.jpg" alt="youtuber">
+                <div class="nameofchannel">
+                    <p>Abu Zaid</p>
+                    <p>9.06K subscribers</p>
+                </div>
+                <div>
+                    <button id="subscribe-btn">Subscribe</button>
+                </div>
+                <div class="like">
+                    <button><i class="fa-regular fa-thumbs-up"></i></button>
+                    <button><i class="fa-regular fa-thumbs-down"></i></button>
+                    <button><i class="fa-solid fa-share"></i> </button>
+                    <button><i class="fa-solid fa-ellipsis"></i></button>
+                </div>
+            </div>
+        </div>
+        <div>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VCrNOL5eEws?si=fKV3qJ7YDUmuOx3z"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>The All Indian Rappers | Purav Jha</p>
+            <div class="videos">
+                <img src="images/channels4_profile.jpg" alt="youtuber">
+                <div class="nameofchannel">
+                    <p>Purav Jha</p>
+                    <p>3.3M subscribers</p>
+                </div>
+                <div>
+                    <button id="subscribe-btn">Subscribe</button>
+                </div>
+                <div class="like">
+                    <button><i class="fa-regular fa-thumbs-up"></i></button>
+                    <button><i class="fa-regular fa-thumbs-down"></i></button>
+                    <button><i class="fa-solid fa-share"></i> </button>
+                    <button><i class="fa-solid fa-ellipsis"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/D2DnMorHdJ0?si=KEDudbMp9owXQ2Q1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>Shireen X 2Pac | شيرين و توباك (Prod by @Abu.zeid)</p>
+            <div class="videos">
+                <img src="images/channels4_profile.jpg" alt="youtuber">
+                <div class="nameofchannel">
+                    <p>Abu Zaid</p>
+                    <p>9.06K subscribers</p>
+                </div>
+                <div>
+                    <button id="subscribe-btn">Subscribe</button>
+                </div>
+                <div class="like">
+                    <button><i class="fa-regular fa-thumbs-up"></i></button>
+                    <button><i class="fa-regular fa-thumbs-down"></i></button>
+                    <button><i class="fa-solid fa-share"></i> </button>
+                    <button><i class="fa-solid fa-ellipsis"></i></button>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    </main>
+
+</body>
+
+</html>
